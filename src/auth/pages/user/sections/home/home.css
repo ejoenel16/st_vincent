@@ -1,0 +1,16 @@
+#page_home h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+#page_home p {
+    font-weight: 300;
+    font-size: 1rem;
+    width: 100%;
+}
+
+#homeEnrollNow {
+    background: #FFE945;
+    font-weight: 600;
+    font-size: 11pt;
+}

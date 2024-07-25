@@ -1,0 +1,79 @@
+.header_design {
+   background: #141516 !important;
+   height: 6vh !important;
+   box-shadow: rgba(255, 255, 255, 0.1) 0px 10px 10px -10px !important;
+   border-bottom: 1px solid #414040;
+}
+
+.header_link:hover {
+   cursor: pointer;
+}
+
+.nav_school li a {
+   color: #141516;
+   font-weight: 700;
+}
+
+/* Responsive adjustments */
+.header-container {
+   width: 90%;
+}
+
+.hamburger {
+   display: none;
+}
+
+@media (max-width: 992px) {
+   .d-none.d-lg-block {
+      display: block !important;
+   }
+
+   .nav_school,
+   .desktop-button {
+      display: none;
+   }
+
+   .hamburger {
+      display: block;
+      cursor: pointer;
+   }
+
+   .side-menu {
+      display: none;
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      background: #fff;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+   }
+
+   .side-menu.open {
+      display: block;
+   }
+
+   .side-menu .close {
+      text-align: right;
+      padding: 10px;
+      cursor: pointer;
+   }
+
+   .nav_school_side {
+      padding: 20px;
+   }
+
+   .nav_school_side li {
+      margin-bottom: 10px;
+   }
+
+   .mobile-button-container {
+      padding: 20px;
+   }
+
+   .mobile-button {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+}
